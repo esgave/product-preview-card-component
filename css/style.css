@@ -1,0 +1,123 @@
+:root {
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --Font-Monserrat: 'Montserrat', sans-serif;
+    --Font-Fraunces: 'Fraunces', serif;
+}
+
+body {
+    background-color: var(--Cream);
+    
+}
+
+p {
+    font-size: 14px;
+    font-family: var(--Font-Monserrat);
+    color: var(--Dark-grayish-blue);
+}
+
+h1 {
+    font-family: var(--Font-Fraunces);
+    font-weight: 700;
+}
+
+.container-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    width: 90%;
+    background: white;
+    border-radius: 10px; 
+}
+
+.img-desktop {
+    display: none;
+    max-width: 50%;
+    border-radius: 10px 0px 0px 10px
+}
+
+.img-mobile {
+    max-width: 100%;
+    border-radius: 10px 10px 0px 0px
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.price-now {
+    font-family: var(--Font-Fraunces);
+    font-weight: 700;
+    color: var(--Dark-cyan);
+    font-size: 20px;
+}
+
+.price-before {
+    text-decoration: line-through;
+    font-weight: 400;
+    color: var(--Dark-grayish-blue);
+}
+
+.perfume{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.text-description {
+ padding: 20px;
+}
+
+.button-style {
+    width: 100%;
+    border: none;
+    font-family: var(--Font-Monserrat);
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--White);
+    background-color: var(--Dark-cyan);
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    perspective: 1px;
+}
+
+button:hover {
+    background-color: var(--Dark-grayish-blue);
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .container-parent {
+        height: 95vh;
+        display: flex;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img-desktop {
+        display: block;
+    }
+
+    .img-mobile {
+        display: none;
+    }
+
+}
