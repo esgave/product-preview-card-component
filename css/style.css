@@ -2,6 +2,7 @@
     --Dark-cyan: hsl(158, 36%, 37%);
     --Cream: hsl(30, 38%, 92%);
     --Very-dark-blue: hsl(212, 21%, 14%);
+    --Very-dark-cyan: hsl(158, 45%, 20%);
     --Dark-grayish-blue: hsl(228, 12%, 48%);
     --White: hsl(0, 0%, 100%);
     --Font-Monserrat: 'Montserrat', sans-serif;
@@ -81,25 +82,26 @@ h1 {
  padding: 20px;
 }
 
-.button-style {
-    width: 100%;
-    border: none;
+.link {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
     font-family: var(--Font-Monserrat);
     font-size: 15px;
     font-weight: 700;
     color: var(--White);
     background-color: var(--Dark-cyan);
-    text-align: center;
-    justify-content: space-evenly;
     padding: 8px;
     border-radius: 8px;
     overflow: hidden;
-    perspective: 1px;
 }
 
-button:hover {
-    background-color: var(--Dark-grayish-blue);
-    cursor: pointer;
+a:hover {
+    background-color: var(--Very-dark-cyan);
+}
+
+.cart-icon {
+    padding-right: 10px;
 }
 
 @media (min-width: 768px) {
