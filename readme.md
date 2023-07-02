@@ -7,7 +7,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -27,11 +26,6 @@ Users should be able to:
 
 ![See screenshot](./screenshot1.png)
 ![See screenshot](./screenshot2.png)
-
-### Links
-
-- [Solution URL](https://www.frontendmentor.io/solutions/responsive-product-preview-card-component-UbFXnXKH9A)
-- [Live site URL](https://esgave.github.io/product-preview-card-component/)
 
 ## My process
 
