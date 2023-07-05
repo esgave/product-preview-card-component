@@ -11,7 +11,10 @@
 
 body {
     background-color: var(--Cream);
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
 }
 
 p {
@@ -25,22 +28,12 @@ h1 {
     font-weight: 700;
 }
 
-.container-parent {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 95vh;
-}
-
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     max-width: 600px;
     width: 90%;
     background: var(--White);
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
 .img-desktop {
@@ -73,13 +66,13 @@ h1 {
     color: var(--Dark-grayish-blue);
 }
 
-.perfume{
+.perfume {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-.text-description {
- padding: 20px;
+.card {
+    padding: 20px;
 }
 
 .link {
